@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var countLabel: UILabel!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +21,17 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func plus(_ sender: Any) {
+        
+        
+    }
+    
+    
+    @IBAction func minus(_ sender: Any) {
+        
+        
+    }
+    
+    
 }
 
